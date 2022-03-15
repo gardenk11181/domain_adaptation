@@ -4,8 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+requests = "*"
+pytorch-lightning = "*"
+torchvision = "*"
 
 [dev-packages]
+jupyter = "*"
+notebook = "*"
 
 [requires]
 python_version = "3.7"
